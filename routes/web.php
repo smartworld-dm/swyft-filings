@@ -15,7 +15,13 @@ Route::get('/', function()
 {
     return View::make('pages.index');
 });
+
 Route::get('/business_type/dba', function()
 {
     return View::make('pages.dba');
+});
+
+Route::get('/business_type/c_corp', function()
+{
+    return View::make('pages.c_corp');
 });

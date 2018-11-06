@@ -94,7 +94,7 @@
 										<a class="py-1 py-lg-0 px-2 px-lg-4 d-block" href="/business_type/dba">LLC</a>
 									</li>
 									<li class="pb-2 pr-md-2">
-										<a class="py-1 py-lg-0 px-2 px-lg-4 d-block" href="/business_type/dba">C Corporation</a>
+										<a class="py-1 py-lg-0 px-2 px-lg-4 d-block" href="/business_type/c_corp">C Corporation</a>
 									</li>
 									<li class="pb-2 pr-md-2">
 										<a class="py-1 py-lg-0 px-2 px-lg-4 d-block" href="/business_type/dba">S Corporation</a>
