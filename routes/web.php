@@ -11,6 +11,11 @@
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
+Route::get('/', function()
+{
+    return View::make('pages.index');
+});
+Route::get('/business_type/dba', function()
+{
+    return View::make('pages.dba');
 });
