@@ -1,7 +1,7 @@
 <div class="container">
 	<div class="px-3 py-lg-2 navbar-expand-lg navbar-light top-nav d-flex justify-content-between align-items-center">
 		<div class="logo d-none d-lg-block">
-			<a href="01-index.html">
+			<a href="/">
 				<img src="{{ asset('images/logo.png') }}" srcset="{{ asset('images/logo.png 2x') }}" alt="image description" width="261" height="42">
 			</a>
 		</div>
@@ -94,7 +94,7 @@
 										<a class="py-1 py-lg-0 px-2 px-lg-4 d-block" href="/business_type/dba">LLC</a>
 									</li>
 									<li class="pb-2 pr-md-2">
-										<a class="py-1 py-lg-0 px-2 px-lg-4 d-block" href="/business_type/c_corp">C Corporation</a>
+										<a class="py-1 py-lg-0 px-2 px-lg-4 d-block" href="/incorporation/start-a-c-corporation">C Corporation</a>
 									</li>
 									<li class="pb-2 pr-md-2">
 										<a class="py-1 py-lg-0 px-2 px-lg-4 d-block" href="/business_type/dba">S Corporation</a>
@@ -103,7 +103,7 @@
 										<a class="py-1 py-lg-0 px-2 px-lg-4 d-block" href="/business_type/dba">Nonprofit</a>
 									</li>
 									<li class="pb-2 pr-md-2">
-										<a class="py-1 py-lg-0 px-2 px-lg-4 d-block" href="/business_type/dba">DBA</a>
+										<a class="py-1 py-lg-0 px-2 px-lg-4 d-block" href="/dba/get-a-dba-doing-business-as">DBA</a>
 									</li>
 								</ul>
 								<ul class="pl-md-4 pb-lg-4 pb-2">
@@ -147,7 +147,7 @@
 										<img src="{{ asset('images/compare_active.png') }}" srcset="{{ asset('images/compare_active.png 2x') }}" alt="image description" width="34" height="34">
 									</i>
 								Compare Entity Types</a>
-								<a class="dropdown-item text-center" href="!#">
+								<a class="dropdown-item text-center" href="/incorporation/free-business-name-search">
 									<i class="d-block text-center">
 										<img src="{{ asset('images/search.png') }}" srcset="{{ asset('images/search.png 2x') }}" alt="image description" width="34" height="34">
 									</i>
@@ -272,7 +272,7 @@
 										</a>
 									</li>
 									<li class="d-flex align-items-center pb-4 pb-lg-3">
-										<a class="text-uppercase" href="#!">
+										<a class="text-uppercase" href="/incorporation/free-incorporation-guide">
 											<i class="ml-3 ml-lg-0">
 												<img src="{{ asset('images/jobs.png') }}" srcset="{{ asset('images/jobs.png 2x') }}" alt="image description" width="34" height="34">
 											</i>

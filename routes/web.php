@@ -16,12 +16,22 @@ Route::get('/', function()
     return View::make('pages.index');
 });
 
-Route::get('/business_type/dba', function()
+Route::get('/dba/get-a-dba-doing-business-as', function()
 {
     return View::make('pages.dba');
 });
 
-Route::get('/business_type/c_corp', function()
+Route::get('/incorporation/start-a-c-corporation', function()
 {
     return View::make('pages.c_corp');
+});
+
+Route::get('/incorporation/free-business-name-search', function()
+{
+    return View::make('pages.free_name_search');
+});
+
+Route::get('/incorporation/free-incorporation-guide', function()
+{
+    return View::make('pages.free_incorporation_guide');
 });
