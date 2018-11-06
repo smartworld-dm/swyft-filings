@@ -35,3 +35,8 @@ Route::get('/incorporation/free-incorporation-guide', function()
 {
     return View::make('pages.free_incorporation_guide');
 });
+
+Route::get('/incorporation/c-corp-faq', function()
+{
+    return View::make('pages.c_corp_faq');
+});

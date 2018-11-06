@@ -361,7 +361,7 @@
 								<a class="dropdown-item" href="!#">LLC FAQs</a>
 							</li>
 							<li class="pb-1">
-								<a class="dropdown-item" href="#!">C Corporation FAQs</a>
+								<a class="dropdown-item" href="/incorporation/c-corp-faq">C Corporation FAQs</a>
 							</li>
 							<li class="pb-1">
 								<a class="dropdown-item" href="#!">S Corporation FAQs</a>
