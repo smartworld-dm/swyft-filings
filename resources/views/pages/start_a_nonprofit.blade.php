@@ -3,12 +3,13 @@
 @section('title', 'Swyft Fillings')
 
 @section('content')
-	<section class="hero dba second-bg">
+	<section class="hero dba hero-nonprofit">
 		<div class="container container-dba p-0">
 			<div class="text-area py-4 py-sm-5 pb-lg-4 col-lg-8 col-xl-7">
-				<h1 class="text-white mb-3 mb-lg-4 pt-1 pt-lg-0 text-center text-lg-left text-shadow-none font-helvetica font-weight-normal">Form Your C Corporation <br> in as little as 10 Minutes</h1>
-				<ul class="text-white font-helvetica pl-3 pb-4">
-					<li>Minimize your personal liability and shield your personal assets</li>
+				<h1 class="text-white mb-3 mb-lg-4 pt-1 pt-lg-0 text-center text-lg-left font-weight-medium text-shadow-none">For Your Nonprofit Online <br> in as Few as 10 Minutes</h1>
+				<h6 class="text-white text-uppercase pt-1 pt-lg-0 mb-4 text-center text-lg-left">Start your nonprofit with confidence. affordable. fast. simple.</h6>
+				<ul class="text-white pl-3 pb-4">
+					<li>Every day people choose Swyft Filings to form their Nonprofit</li>
 					<li>We'll prepare and file all required documents with the Secretary of State</li>
 				</ul>
 				<div class="get start-select-holder col-xl-8 mb-3">
@@ -69,7 +70,7 @@
 				</div>
 				<div class="get col-xl-8 text-center">
 					<a class="get-started d-block text-center text-uppercase text-white rounded mb-4" href="#!">Get started</a>
-					<a class="d-inline-block text-center text-white mb-4 text-shadow" href="#!">Starting at $49 + state filing fees <i class="fas fa-angle-right"></i></a>
+					<a class="d-inline-block text-center text-white mb-4 text-shadow" href="#!">Starting at $49. View pricing details <i class="fas fa-angle-right"></i></a>
 				</div>
 				<div class="col-xl-8 d-flex align-items-center justify-content-around pb-2 hero-image-list pl-md-0 pl-3">
 					<div class="img pl-xl-0 pl-2 pr-xl-0 pr-2">
@@ -85,99 +86,99 @@
 			</div>
 		</div>
 		<div class="bg-stretch">
-			<img src="{{ asset('images/img01.jpg') }}" srcset="{{ asset('images/img01.jpg 2x') }}" alt="" width="1920" height="495">
+			<img src="{{ asset('images/hero-nonprofit.jpg') }}" srcset="{{ asset('images/hero-nonprofit.jpg 2x') }}" alt="" width="4000" height="986">
 		</div>
 	</section>
 	<section class="process pt-5">
 		<div class="container container-dba">
-			<div class="headings text-center mb-6">
+			<div class="headings text-center pb-6 mb-2">
 				<h2 class="font-lato text-default">Getting Started is Easy</h2>
-				<p>Our three step process will have your business up and running <em>Swyftly</em> <sup>TM</sup></p>
+				<p>Our three step process will have your Nonprofit up and running <em>Swyftly</em> <sup>TM</sup></p>
 			</div>
 			<div class="row start-holder block d-flex justify-content-around pb-5">
-				<div class="col-xl-4 col-lg-4 col-md-12 text-center pb-2 mb-md-0 mb-5">
+				<div class="col-xl-4 col-lg-4 col-md-12 text-center pb-2 mb-md-5 mb-5">
 					<i class="d-block">
 						<img src="{{ asset('images/lulu-building.png') }}" srcset="{{ asset('images/lulu-building.png 2x') }}" alt="image description" width="80" height="80">
 					</i>
-					<h4 class="mb-4 font-weight-light  d-none d-lg-block">Tell us about your business</h4>
+					<h4 class="mb-4 font-weight-light d-none d-lg-block">Tell us about your Nonprofit</h4>
 					<h4 class="d-block d-lg-none">Provide business details</h4>
-					<p>We have taken the complexity out of forming your DBA. Our simple online application can be completed in as little as 10 minutes.</p>
+					<p>We have taken the complexity out of forming your Nonprofit. Our easy online form can be completed in as little as 10 minutes.</p>
 				</div>
-				<div class="col-xl-4 col-lg-4 col-md-12 text-center pb-2 mb-md-0 mb-5">
+				<div class="col-xl-4 col-lg-4 col-md-12 text-center pb-2 mb-md-5 mb-5">
 					<i class="d-block">
 						<img src="{{ asset('images/lulu-pencil.png') }}" srcset="{{ asset('images/lulu-pencil.png 2x') }}" alt="image description" width="80" height="80">
 					</i>
-					<h4 class="mb-4 font-weight-light ">We file the paperwork</h4>
-					<p>After a comprehensive business name search, we will draft and file your DBA application directly with the Secretary of State or city county.</p>
+					<h4 class="mb-4 font-weight-light">We file the paperwork</h4>
+					<p>We incorporate your Nonprofit by preparing all required documents and filing them directly with the Secretary of State.</p>
 				</div>
 				<div class="col-xl-4 col-lg-4 col-md-12 text-center pb-2">
 					<i class="d-block">
 						<img src="{{ asset('images/lulu-documents.png') }}" srcset="{{ asset('images/lulu-documents.png 2x') }}" alt="image description" width="80" height="80">
 					</i>
-					<h4 class="mb-4 font-weight-light ">Receive your documents</h4>
-					<p>Once your DBA has been approved by the state or county, we will mail your completed DBA package directly to you.</p>
+					<h4 class="mb-4 font-weight-light">Receive your documents</h4>
+					<p>Once your incorporation documents have been approved by the state, you will receive your completed Nonprofit package by mail.</p>
 				</div>
 			</div>
 		</div>
 	</section>
-	<section class="section swyft-section border-bottom pt-5 pb-5">
+	<section class="section swyft-section border-bottom pt-5">
 		<div class="container container-dba">
-			<div class="headings head-text-inner text-center pb-4">
-				<h2 class="font-lato text-default h2-text">Why Business Owners Choose Swyft Filings</h2>
-				<p>Every day businesses from all over the nation choose Swyft Filings to start their DBA. <br>Here are a just a few of the reasons why so many owners choose us to help start their business.</p>
+			<div class="headings text-center pb-4">
+				<h2 class="text-default">Why Nonprofit Organizations Choose Swyft Filings</h2>
+				<p class="lead">Every day people from all over the nation choose Swyft Filings to form their Nonprofit.<br> Here are a just a few of the reasons why so many owners choose us to help start their Nonprofit.</p>
 			</div>
-			<div class="columns feature-hoolder d-flex flex-column flex-md-row">
-				<div class="col-md-4 d-flex flex-column align-items-center px-3 mb-md-0 mb-4">
+			<div class="columns feature-hoolder d-flex flex-column flex-md-row pb-5">
+				<div class="col-md-4 d-flex flex-column align-items-center px-3 pb-2">
 					<i class="d-flex justify-content-center align-items-center mb-4 icon-feature ti-medall"></i>
 					<div class="text-center pt-3 pt-md-0">
-						<h5 class="pb-3">Trusted and Experienced</h5>
-						<p>Our Business Specialists will form your new DBA the correct way, saving you time and money by avoiding costly errors. Let us handle your business filings while you focus on growing your business.</p>
+						<h5 class="pb-3 font-weight-medium">Trusted and Experienced</h5>
+						<p>Our Business Specialists will form your new Nonprofit the correct way, saving you time and money by avoiding costly errors. Let us handle your business filings while you focus on growing your Nonprofit.</p>
 					</div>
 				</div>
-				<div class="col-md-4 d-flex flex-column align-items-center px-3 mb-md-0 mb-4 items-holder">
+				<div class="col-md-4 d-flex flex-column align-items-center px-3 pb-2 items-holder">
 					<i class="d-flex justify-content-center align-items-center mb-4 icon-feature ti-comments"></i>
 					<div class="text-center pt-3 pt-md-0">
-						<h5 class="pb-3">Personal Customer Support</h5>
-						<p>Each one of our customers is assigned a personal Business Specialist. Have a question? Just call your personal Business Specialist directly. No need to wait in a pool of phone calls.</p>
+						<h5 class="pb-3 font-weight-medium">Personal Customer Support</h5>
+						<p>Each one of our customers is assigned a personal Nonprofit Business Specialist. Have a question? Just call your personal Business Specialist directly. No need to wait in a pool of phone calls.</p>
 					</div>
 				</div>
-				<div class="col-md-4 d-flex flex-column align-items-center px-3 items-holder">
+				<div class="col-md-4 d-flex flex-column align-items-center px-3 pb-2 items-holder">
 					<i class="d-flex justify-content-center align-items-center mb-4 icon-feature ti-reload"></i>
 					<div class="text-center pt-3 pt-md-0">
-						<h5 class="pb-3">Fast Turnaround Time</h5>
-						<p>When you place your order through Swyft Filings, we can immediately start the process of forming your DBA. Our processing times are some of the fastest in the industry.</p>
+						<h5 class="pb-3 font-weight-medium">Fast Turnaround Time</h5>
+						<p>When you place your order through Swyft Filings, we can immediately start the process of forming your new Nonprofit. Our processing times are some of the fastest in the industry.</p>
 					</div>
 				</div>
 			</div>
 		</div>
 	</section>
-	<section class="business-section text-center">
+	<section class="business-section nonprofit-inner text-center">
 		<div class="container">
 			<h2 class="text-default">Choose the Right Business Type</h2>
 			<p>Compare the important differences of each business structure to decide <br> which one is right for your company.</p>
 			<div class="row">
 				<div class="col-xl-4 col-12 mb-xl-0 mb-md-5 mb-0 text-left pl-md-0 pl-3">
 					<div class="content">
-						<h4>Advantages of forming a C Corp</h4>
-						<p>A C Corp is the only type of organization that can "go public" and sell an unlimited number of ownership shares. They do typically get taxed at a higher rate due to taxes being imposed at both a personal and corporate level, however having access to more capital, higher revenue potential, and ultimately profits, often offsets this.</p>
+						<h4>Advantages of forming a Nonprofit</h4>
+						<p>The Nonprofit Corporation is a special type of business structure, which exists to provide certain benefits to organizations that have the main goal of serving the public. Much like with other formal business types, those who run Nonprofits are provided limited liability protection.</p>
 					</div>
-					<h4 class="mb-3">Why choose a C Corp?</h4>
+					<h4 class="mb-3">Why choose a Nonprofit?</h4>
 					<ul class="corp-list">
 						<li>
-							<i class="icon ti-shield"></i>
-							<span>Personal asset protection</span>
+							<i class="icon ti-money"></i>
+							<span>Can accept donations</span>
+						</li>
+						<li>
+							<i class="ti-write icon"></i>
+							<span>Potential tax-exempt status</span>
 						</li>
 						<li>
 							<i class="icon ti-stats-up"></i>
-							<span>Ability to raise capital</span>
+							<span>Raise capital through grants</span>
 						</li>
 						<li>
-							<i class="icon ti-infinite"></i>
-							<span>Unlimited owners</span>
-						</li>
-						<li>
-							<i class="icon ti-receipt"></i>
-							<span>Option to sell shares</span>
+							<i class="icon ti-shield"></i>
+							<span>Personal asset protection</span>
 						</li>
 					</ul>
 					<span class="popover-button font-open-sans">
@@ -195,7 +196,7 @@
 							<div class="td col2"><h4>Llc</h4></div>
 							<div class="td col3"><h4>C corp</h4></div>
 							<div class="td col4"><h4>S corp</h4></div>
-							<div class="td col5"><h4>Dba</h4></div>
+							<div class="td col5"><h4>Nonprofit</h4></div>
 						</li>
 						<li>
 							<div class="td td-head"><strong>Protection</strong></div>
@@ -223,7 +224,11 @@
 									<img src="{{ asset('images/ico23.png') }}" srcset="{{ asset('images/ico23.png 2x') }}" alt="image description" width="14" height="13">
 								</div>
 							</div>
-							<div class="td col5">&nbsp;</div>
+							<div class="td col5">
+								<div class="ico-holder">
+									<img src="{{ asset('images/ico23.png') }}" srcset="{{ asset('images/ico23.png 2x') }}" alt="image description" width="14" height="13">
+								</div>
+							</div>
 						</li>
 						<li class="drop-item" data-drop-group="group1">
 							<div class="td col1">&nbsp;</div>
@@ -258,11 +263,7 @@
 							</div>
 							<div class="td col3">&nbsp;</div>
 							<div class="td col4">&nbsp;</div>
-							<div class="td col5">
-								<div class="ico-holder">
-									<img src="{{ asset('images/ico23.png') }}" srcset="{{ asset('images/ico23.png 2x') }}" alt="image description" width="14" height="13">
-								</div>
-							</div>
+							<div class="td col5">&nbsp;</div>
 						</li>
 						<li class="drop-item" data-drop-group="group2">
 							<div class="td col1">&nbsp;</div>
@@ -298,7 +299,7 @@
 									<img src="{{ asset('images/ico23.png') }}" srcset="{{ asset('images/ico23.png 2x') }}" alt="image description" width="14" height="13">
 								</div>
 							</div>
-							<div class="td col5">&nbsp;</div>
+							<div class="td col5">Varies</div>
 						</li>
 						<li class="drop-item" data-drop-group="group3">
 							<div class="td col1">&nbsp;</div>
@@ -312,7 +313,7 @@
 								<p>Ownership changes in an S Corp are easily made through the sell of stock to new or existing shareholders.</p>
 							</div>
 							<div class="td col5">
-								<p>DBAs cannot make ownership changes.</p>
+								<p>Nonprofits have no owners.</p>
 							</div>
 						</li>
 						<li class="body">
@@ -334,7 +335,11 @@
 									<img src="{{ asset('images/ico23.png') }}" srcset="{{ asset('images/ico23.png 2x') }}" alt="image description" width="14" height="13">
 								</div>
 							</div>
-							<div class="td col5">&nbsp;</div>
+							<div class="td col5">
+								<div class="ico-holder">
+									<img src="{{ asset('images/ico23.png') }}" srcset="{{ asset('images/ico23.png 2x') }}" alt="image description" width="14" height="13">
+								</div>
+							</div>
 						</li>
 						<li class="drop-item" data-drop-group="group4">
 							<div class="td col1">&nbsp;</div>
@@ -348,7 +353,7 @@
 								<p>S Corps are separate entities that survive the death or transfer of stock of the owners and/or major shareholders.</p>
 							</div>
 							<div class="td col5">
-								<p>DBAs end upon closure of the company or the death of the owner. Nonprofits are entities that survive any change in their board of directors.</p>
+								<p>DBAs end upon closure of the company or the death of the owner. Nonprofits are entities that survive any change in their board of directors.Nonprofits are entities that survive any change in their board of directors.</p>
 							</div>
 						</li>
 						<li class="body">
@@ -374,7 +379,11 @@
 									<img src="{{ asset('images/ico23.png') }}" srcset="{{ asset('images/ico23.png 2x') }}" alt="image description" width="14" height="13">
 								</div>
 							</div>
-							<div class="td col5">&nbsp;</div>
+							<div class="td col5">
+								<div class="ico-holder">
+									<img src="{{ asset('images/ico23.png') }}" srcset="{{ asset('images/ico23.png 2x') }}" alt="image description" width="14" height="13">
+								</div>
+							</div>
 						</li>
 						<li class="drop-item" data-drop-group="group5">
 							<div class="td col1">&nbsp;</div>
@@ -388,7 +397,7 @@
 								<p>After formation, S Corps have many ongoing formalities such as writing bylaws, selecting directors, holding initial and annual shareholder meetings, and issuing stock.</p>
 							</div>
 							<div class="td col5">
-								<p>There are no ongoing corporate formalities.</p>
+								<p>After formation, Nonprofits have many ongoing formalities such as writing bylaws, selecting directors, and seeking tax exempt status.</p>
 							</div>
 						</li>
 						<li class="body">
@@ -410,7 +419,11 @@
 									<img src="{{ asset('images/ico23.png') }}" srcset="{{ asset('images/ico23.png 2x') }}" alt="image description" width="14" height="13">
 								</div>
 							</div>
-							<div class="td col5">&nbsp;</div>
+							<div class="td col5">
+								<div class="ico-holder">
+									<img src="{{ asset('images/ico23.png') }}" srcset="{{ asset('images/ico23.png 2x') }}" alt="image description" width="14" height="13">
+								</div>
+							</div>
 						</li>
 						<li class="drop-item" data-drop-group="group6">
 							<div class="td col1">&nbsp;</div>
@@ -424,7 +437,7 @@
 								<p>S Corps may issue one type of stock, which may be sold to a maximum of 100 shareholders. Any equity sales to third parties needs to be done in compliance with SEC regulations.</p>
 							</div>
 							<div class="td col5">
-								<p>DBAs are not allowed to sell stock but may be able to obtain bank loans.</p>
+								<p>Nonprofits may obtain bank loans, grants, venture capital, and tax-exempt donations. In some states, Nonprofits may sell stock.</p>
 							</div>
 						</li>
 						<li>
@@ -458,7 +471,7 @@
 						<li class="drop-item" data-drop-group="group7">
 							<div class="td col1">&nbsp;</div>
 							<div class="td col2">
-								<p>	LLCs are not taxed at the corporate level. Instead, all profit and losses are reported with the personal income taxes of each member.</p>
+								<p>LLCs are not taxed at the corporate level. Instead, all profit and losses are reported with the personal income taxes of each member.</p>
 							</div>
 							<div class="td col3">
 								<p>The income of the C Corp is taxed at the corporate level and then again at the shareholder level.</p>
@@ -467,7 +480,7 @@
 								<p>S Corps are not taxed at the corporate level. Instead, all profit and losses are reported with the personal income taxes of each shareholder (owner).</p>
 							</div>
 							<div class="td col5">
-								<p>DBAs are not taxed at the company level. All profit and losses are reported on the personal income tax return of the owner.</p>
+								<p>The income of Nonprofits is taxed at the corporate level unless they apply for and are granted tax-exempt status.</p>
 							</div>
 						</li>
 						<li class="body">
@@ -499,7 +512,39 @@
 								<p>S Corps are not taxed at the corporate level.</p>
 							</div>
 							<div class="td col5">
-								<p>DBAs are not taxed at the corporate level.</p>
+								<p>The income of Nonprofits is taxed at the corporate level unless they apply for and are granted tax-exempt status.</p>
+							</div>
+						</li>
+						<li class="body">
+							<div class="td col1">
+								<span class="title-drop" data-drop="group9">
+									<i class="fa fa-plus-square"></i>
+									<i class="fa fa-minus-square"></i>
+									Tax Exempt
+								</span>
+							</div>
+							<div class="td col2">&nbsp;</div>
+							<div class="td col3">&nbsp;</div>
+							<div class="td col4">&nbsp;</div>
+							<div class="td col5">
+								<div class="ico-holder">
+									<img src="{{ asset('images/ico23.png') }}" srcset="{{ asset('images/ico23.png 2x') }}" alt="image description" width="14" height="13">
+								</div>
+							</div>
+						</li>
+						<li class="drop-item" data-drop-group="group9">
+							<div class="td col1">&nbsp;</div>
+							<div class="td col2">
+								<p>LLCs are not eligible for tax-exempt status.</p>
+							</div>
+							<div class="td col3">
+								<p>C Corps are not eligible for tax-exempt status.</p>
+							</div>
+							<div class="td col4">
+								<p>S Corps are not eligible for tax-exempt status.</p>
+							</div>
+							<div class="td col5">
+								<p>The income of Nonprofits is taxed at the corporate level unless they apply for and are granted tax-exempt status.</p>
 							</div>
 						</li>
 						<li>
@@ -507,7 +552,7 @@
 						</li>
 						<li class="body">
 							<div class="td col1">
-								<span class="title-drop" data-drop="group9">
+								<span class="title-drop" data-drop="group10">
 									<i class="fa fa-plus-square"></i>
 									<i class="fa fa-minus-square"></i>
 									State formation fees
@@ -528,9 +573,13 @@
 									<img src="{{ asset('images/ico23.png') }}" srcset="{{ asset('images/ico23.png 2x') }}" alt="image description" width="14" height="13">
 								</div>
 							</div>
-							<div class="td col5">&nbsp;</div>
+							<div class="td col5">
+								<div class="ico-holder">
+									<img src="{{ asset('images/ico23.png') }}" srcset="{{ asset('images/ico23.png 2x') }}" alt="image description" width="14" height="13">
+								</div>
+							</div>
 						</li>
-						<li class="drop-item" data-drop-group="group9">
+						<li class="drop-item" data-drop-group="group10">
 							<div class="td col1">&nbsp;</div>
 							<div class="td col2">
 								<p>LLCs are required to pay formation fees to the state. Fees will vary based on the state of incorporation.</p>
@@ -542,12 +591,12 @@
 								<p>S Corps are required to pay formation fees to the state. Fees will vary based on the state of incorporation.</p>
 							</div>
 							<div class="td col5">
-								<p>There are required filing fees for DBAs. Fees will vary based on the county and state in which the DBA is filed.</p>
+								<p>Nonprofits are required to pay formation fees to the state. Fees will vary based on the state of incorporation</p>
 							</div>
 						</li>
 						<li class="body">
 							<div class="td col1">
-								<span class="title-drop" data-drop="group10">
+								<span class="title-drop" data-drop="group11">
 									<i class="fa fa-plus-square"></i>
 									<i class="fa fa-minus-square"></i>
 									Ongoing compliance fees
@@ -568,9 +617,13 @@
 									<img src="{{ asset('images/ico23.png') }}" srcset="{{ asset('images/ico23.png 2x') }}" alt="image description" width="14" height="13">
 								</div>
 							</div>
-							<div class="td col5">&nbsp;</div>
+							<div class="td col5">
+								<div class="ico-holder">
+									<img src="{{ asset('images/ico23.png') }}" srcset="{{ asset('images/ico23.png 2x') }}" alt="image description" width="14" height="13">
+								</div>
+							</div>
 						</li>
-						<li class="drop-item" data-drop-group="group10">
+						<li class="drop-item" data-drop-group="group11">
 							<div class="td col1">&nbsp;</div>
 							<div class="td col2">
 								<p>Depending on the state of incorporation, reports and fees may be required.</p>
@@ -582,7 +635,7 @@
 								<p>An annual report and franchise fees are generally due each year along with other reports and fees, which varies depending on the state of incorporation.</p>
 							</div>
 							<div class="td col5">
-								<p>There are no ongoing compliance fees.</p>
+								<p>For Nonprofits this varies from state to state.</p>
 							</div>
 						</li>
 						<li>
@@ -616,19 +669,18 @@
 	<section class="begin border-bottom pt-6 pb-4">
 		<div class="container container-dba">
 			<div class="headings text-center pb-5">
-				<h2 class="text-default mb-3">Are You Ready to Begin?</h2>
-				<p class="mb-0">Launch your DBA today starting at <strong>$49</strong> + state fees. <a href="#!" class="font-weight-medium">See detailed pricing <i class="fas fa-angle-right"></i></a></p>
-				<p>We also offer a 3-Easy Payment Plan to help get your business up and running quickly.</p>
+				<h2 class="mb-3 text-default">Are You Ready to Begin?</h2>
+				<p>Launch your business today starting at <strong>$49</strong> + state fees. <a href="#!" class="font-weight-medium">See detailed pricing <i class="fas fa-angle-right"></i></a><br>We also offer a 3-Easy Payment Plan to help get your business up and running quickly.</p>
 			</div>
 			<div class="links text-center pb-5">
-				<a class="text-white py-3 px-4" href="#!"> Start My Corporation Today<i class="pl-2 ti-arrow-circle-right"></i></a>
+				<a class="text-white py-3 px-4" href="#!">Start My Nonprofit Today<i class="pl-1 ti-arrow-circle-right"></i></a>
 			</div>
 			<div class="row orders-link pt-3 ml-xl-3 ml-0 pb-5">
 				<h3 class="text-center col-12 mb-3 mr-3">Included in all of our packages</h3>
 				<div class="col-xl-4 col-lg-4">
 					<ul class="pl-xl-3 pl-0 ml-0 ml-xl-1">
 						<li class="d-flex align-items-baseline"><i class="fas fa-check pr-2"></i>Verify Company Name Availability</li>
-						<li class="d-flex align-items-baseline"><i class="fas fa-check pr-2"></i>Preparation of Articles of Organization</li>
+						<li class="d-flex align-items-baseline"><i class="fas fa-check pr-2"></i>Preparation of Articles of Incorporation</li>
 						<li class="d-flex align-items-baseline"><i class="fas fa-check pr-2"></i>Document Filing with Secretary of State</li>
 					</ul>
 				</div>
@@ -636,7 +688,7 @@
 					<ul class="pl-xl-3 pl-0 ml-0 ml-xl-1">
 						<li class="d-flex align-items-baseline"><i class="fas fa-check pr-2"></i>Dedicated Business Specialist</li>
 						<li class="d-flex align-items-baseline"><i class="fas fa-check pr-2"></i>100% Satisfaction Guarantee</li>
-						<li class="d-flex align-items-baseline"><i class="fas fa-check pr-2"></i>Online Access to Your Corp Documents</li>
+						<li class="d-flex align-items-baseline"><i class="fas fa-check pr-2"></i>Online Access to Your S Corp Documents</li>
 					</ul>
 				</div>
 				<div class="col-xl-4 col-lg-4">
@@ -652,39 +704,46 @@
 	<section class="start-questions border-bottom pb-5 pt-5">
 		<div class="container container-dba">
 			<div class="headings text-center pb-4 mb-2">
-				<h2 class="text-default pt-1">Common Questions About Starting a C Corporation</h2>
+				<h2 class="pt-1 text-default font-lato font-weight-normal">Common Questions About Starting a Nonprofit</h2>
 				<small>If you have more questions, please give us a call at <a href="tel:8777770454" class="tel-link">(877) 777-0454</a>. We love to help!</small>
 			</div>
 			<div class="d-flex row justify-content-center ">
 				<div class="col-xl-6 col-lg-12 border-right">
 					<ul class="accordion mr-xl-5 mb-5">
 						<li class="py-3 my-2">
-							<a class="opener" href="#">What are the primary advantages of a C Corporation?</a>
+							<a class="opener" href="#">What are the primary advantages of a Nonprofit?</a>
 							<div class="slide pt-4 mt-3">
-								<p class="mb-0">The C Corporation is the oldest and one of the most common business structures, and is typically what comes to mind when the average person hears the word "corporation". It provides the greatest level of separation and protection between the company and its owners, and allows the company to raise capital through the issuance of publicly traded stock.</p>
+								<p class="mb-0">Nonprofits are unique in that they are able to raise capital through acquiring special grants, and that they can receive tax-exempt status. For charity organizations, or those focused on serving the greater good of their communities, it is usually the only logical choice of business structure.</p>
 							</div>
 						</li>
 						<li class="py-3 my-2">
-							<a class="opener" href="#">Are there any restrictions on who can file to form a C Corporation?</a>
+							<a class="opener" href="#">Are there any restrictions on who can file to form a Nonprofit?</a>
 							<div class="slide pt-4 mt-3">
-								<p class="mb-3 pb-2">One of the C Corporation's greatest strengths as a structure is that it typically has no requirements regarding who can become part of its ownership. However, a few states do require that an individual be at least 18 years of age to officially become an owner.</p>
+								<p class="mb-0">There are no restrictions as to who can form a Nonprofit organization.</p>
 							</div>
 						</li>
 						<li class="py-3 my-2">
-							<a class="opener" href="#">What are the tax implications of a C Corporation?</a>
+							<a class="opener" href="#">What is "tax exempt status" and how can your Nonprofit acquire it?</a>
 							<div class="slide pt-4 mt-3">
-								<p>C Corporations and their owners are taxed separately from one another, which results in "double taxation". This means that the corporation will be taxed on its profits and then each individual owner will be taxed again on the income distributed to them at a personal level. Filing as an S corp can help business owners avoid this, but will also open them up to paying self-employment taxes.</p>
+								<p>As most Nonprofits are typically founded with the main goal of benefitting the general public, Nonprofits can become "tax exempt" entities. This means that they are free from paying a vast majority of the taxes that are levied on other types of organizations.</p>
+								<p>However, Nonprofits are not granted tax-exempt status automatically upon formation. After the organization is successfully formed with its state, it must file Form 1023 with the IRS to receive tax exempt status. There may also be some state level filing required to become tax exempt at the state level, depending on where your organization is located.</p>
 							</div>
 						</li>
 						<li class="py-3 my-2">
-							<a class="opener" href="#">Are there a required number of individuals needed to form a C Corporation?</a>
+							<a class="opener" href="#">Does Swyft Filings assist with helping my Nonproft receive “tax exempt” 501(c)(3) status?</a>
 							<div class="slide pt-4 mt-3">
-								<p>Most states only require one director in order to start a C Corporation. However, some states impose a minimum number based on the number of shareholders the company has. This required number is typically never lower than three and there is no maximum limit.</p>
+								<p>At this time we do not offer this service.</p>
+							</div>
+						</li>
+						<li class="py-3 my-2">
+							<a class="opener" href="#">Are there a required number of individuals needed to form a Nonprofit?</a>
+							<div class="slide pt-4 mt-3">
+								<p>The typical rule is that Nonprofits must have at least three board members to receive tax-exempt status from the IRS. However, it is possible to form a Nonprofit with only one founder.</p>
 							</div>
 						</li>
 					</ul>
 					<div class="links mr-xl-5 text-center pb-4">
-						<a class="text-white py-2 px-4" href="#!"> View All C Corporation FAQs </a>
+						<a class="text-white py-2 px-4 font-lato font-weight-bold" href="#!">View All Nonprofit FAQs</a>
 					</div>
 				</div>
 				<div class="col-xl-6 col-lg-12">
@@ -704,9 +763,9 @@
 			</div>
 		</div>
 	</section>
-	<section class="start-dba">
+	<section class="start-dba nonprofit">
 		<div class="container container-dba pt-5">
-			<h2 class="text-default pt-2 mb-5 text-center">Ready to Incorporate Your Business?</h2>
+			<h2 class="pt-2 mb-5 text-center text-default">Ready to Start Your Nonprofit?</h2>
 			<div class="row">
 				<div class="col-xl-6 border-right pr-xl-6 pr-3 pb-xl-3 pb-5">
 					<div class="box pt-5 pb-2">
@@ -781,10 +840,10 @@
 					</div>
 				</div>
 				<div class="col-xl-6 text-center pl-xl-6 pl-3">
-					<h4 class="font-weight-light">Still have questions? We're here to help! Call <a class="text-success font-weight-bold" href="tel:8777770450">(877) 777-0450</a> or <a href="#" class="text-success font-weight-bold" target="_blank">Live Chat</a> with us for real-time support.</h4>
+					<h4 class='font-weight-light'>Still have questions? We're here to help! Call <a class="text-success font-weight-bold font-open-sans" href="tel:8777770450">(877) 777-0450</a> or <a href="#" class="text-success font-weight-bold font-open-sans" target="_blank">Live Chat</a> with us for real-time support.</h4>
 				</div>
 			</div>
-			<h4 class="text-center m-5 font-weight-light">Incorporate your business starting at <strong class="font-open-sans font-weight-bold">$49</strong></h4>
+			<h4 class="text-center m-5 font-weight-light">Launch your Nonprofit starting at <strong class="font-open-sans font-weight-bold">$49</strong></h4>
 		</div>
 			<div class="img-holder">
 				<img src="{{ asset('images/support-staff-michelle.png') }}" srcset="{{ asset('images/support-staff-michelle.png 2x') }}" alt="" width="180" height="334">

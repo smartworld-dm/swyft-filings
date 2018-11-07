@@ -8,6 +8,7 @@
 			<div class="hero-inner-holder d-flex justify-content-start flex-lg-row flex-column-reverse align-items-start">
 				<div class="hero-form-holder mr-5">
 					<form>
+						@csrf
 						<div class="form-group mb-0 pt-3 pl-4 pr-4 pb-3">
 							<p>Fill out the form below and we'll let you know if your company name is available.</p>
 							<input type="text" class="form-control py-4 mb-2 d-block" placeholder="Desired Business Name">

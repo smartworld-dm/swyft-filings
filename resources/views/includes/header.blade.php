@@ -15,7 +15,7 @@
 						<a href="#!">My account</a>
 					</li>
 					<li>
-						<a href="#!">Contact us</a>
+						<a href="/support/contact-us">Contact us</a>
 					</li>
 					<li>
 						<a href="#!">Our 100% money back guarantee</a>
@@ -91,16 +91,16 @@
 										<h6 class="text-uppercase mb-0">Business Types</h6>
 									</li>
 									<li class="pb-2 pr-md-2">
-										<a class="py-1 py-lg-0 px-2 px-lg-4 d-block" href="/business_type/dba">LLC</a>
+										<a class="py-1 py-lg-0 px-2 px-lg-4 d-block" href="/limited-liability-company/start-an-llc-limited-liability-company">LLC</a>
 									</li>
 									<li class="pb-2 pr-md-2">
 										<a class="py-1 py-lg-0 px-2 px-lg-4 d-block" href="/incorporation/start-a-c-corporation">C Corporation</a>
 									</li>
 									<li class="pb-2 pr-md-2">
-										<a class="py-1 py-lg-0 px-2 px-lg-4 d-block" href="/business_type/dba">S Corporation</a>
+										<a class="py-1 py-lg-0 px-2 px-lg-4 d-block" href="/incorporation/start-an-s-corporation">S Corporation</a>
 									</li>
 									<li class="pb-2 pr-md-2">
-										<a class="py-1 py-lg-0 px-2 px-lg-4 d-block" href="/business_type/dba">Nonprofit</a>
+										<a class="py-1 py-lg-0 px-2 px-lg-4 d-block" href="/nonprofit/start-a-nonprofit">Nonprofit</a>
 									</li>
 									<li class="pb-2 pr-md-2">
 										<a class="py-1 py-lg-0 px-2 px-lg-4 d-block" href="/dba/get-a-dba-doing-business-as">DBA</a>
@@ -139,7 +139,7 @@
 										<img src="{{ asset('images/wizard_active.png') }}" srcset="{{ asset('images/wizard_active.png 2x') }}" alt="image description" width="34" height="34">
 									</i>
 								Incorporation Wizard</a>
-								<a class="dropdown-item text-center" href="!#">
+								<a class="dropdown-item text-center" href="/starting-your-business/compare-business-types">
 									<i class="d-block text-center">
 										<img src="{{ asset('images/compare.png') }}" srcset="{{ asset('images/compare.png 2x') }}" alt="image description" width="34" height="34">
 									</i>
@@ -175,7 +175,7 @@
 											<h6 class="text-uppercase mb-0">Managing your business</h6>
 										</li>
 										<li>
-											<a class="dropdown-item pt-0 pb-1 py-lg-1 px-2 ml-lg-3 ml-0" href="!#">Annual Report</a>
+											<a class="dropdown-item pt-0 pb-1 py-lg-1 px-2 ml-lg-3 ml-0" href="/managing-your-business/annual-report">Annual Report</a>
 										</li>
 										<li>
 											<a class="dropdown-item pt-0 pb-1 py-lg-1 px-2 ml-lg-3 ml-0" href="!#">Initial Report</a>
@@ -256,7 +256,7 @@
 								</div>
 								<ul class="green pl-xl-4 pl-md-3 pt-lg-2 w-40">
 									<li class="d-flex align-items-center pb-3 pb-lg-0">
-										<a class="text-uppercase" href="#!">
+										<a class="text-uppercase" href="/support/why-us">
 											<i class="ml-3 ml-lg-0">
 												<img src="{{ asset('images/about.png') }}" srcset="{{ asset('images/about.png 2x') }}" alt="image description" width="34" height="34">
 											</i>
@@ -264,7 +264,7 @@
 										</a>
 									</li>
 									<li class="d-flex align-items-center pb-3 pb-lg-0">
-										<a class="text-uppercase" href="#!">
+										<a class="text-uppercase" href="/support/our-reviews">
 											<i class="ml-3 ml-lg-0">
 												<img src="{{ asset('images/customers.png') }}" srcset="{{ asset('images/customers.png 2x') }}" alt="image description" width="34" height="34">
 											</i>
@@ -379,7 +379,7 @@
 					</div>
 				</li>
 				<li class="nav-item my-lg-3 px-lg-3">
-					<a class="nav-link py-3 pl-3 pl-lg-0 py-lg-0 pr-4 pr-lg-0 text-white mx-lg-2" href="!#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+					<a class="nav-link py-3 pl-3 pl-lg-0 py-lg-0 pr-4 pr-lg-0 text-white mx-lg-2" href="/support/swyft-filings-guarantee" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
 						Our Guarantee
 					</a>
 				</li>

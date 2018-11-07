@@ -9,6 +9,7 @@
 				<h1 class="text-white mb-3 mb-lg-4 pt-1 pt-lg-0 text-center text-lg-left">Do what you love.<br/>We'll handle the paperwork.</h1>
 				<h6 class="text-white text-uppercase pt-1 pt-lg-0 mb-4 pb-sm-4 pb-lg-3 text-center text-lg-left">Start your business with confidence. affordable. fast. simple.</h6>
 				<form>
+					@csrf
 					<div class="form-row align-items-center flex-column flex-sm-row pb-3 pb-lg-0">
 						<div class="col-sm-30 mb-3 mb-md-0">
 							<select class="custom-select mr-sm-2">
@@ -220,6 +221,7 @@
 			</div>
 			<div class="col-md-6 px-0 px-sm-3 pl-xl-6 pr-xl-9 px-sm-6 pr-md-0 pl-md-3">
 				<form>
+					@csrf
 					<div class="form-group mr-lg-2">
 						<p>Fill out the form below and we'll let you know if your company name is available.</p>
 						<input type="text" class="form-control py-4 mb-3 d-block" placeholder="Desired Business Name">

@@ -4,6 +4,7 @@
 			<div class="col col-md-6 col-lg-3 pb-4 pb-lg-0 mb-2 mb-md-0 px-md-3 order-md-1 order-lg-1">
 				<h6 class="text-uppercase mb-3 d-none d-md-flex">Free business name search</h6>
 				<form>
+					@csrf
 					<div class="form-group mr-md-2">
 						<small class="d-inline-block mb-3">Fill out the form below and we'll let you know if your company name is available.</small>
 						<input type="text" class="form-control d-block" placeholder="Desired Business Name">
@@ -144,7 +145,7 @@
 					</div>
 					<ul class="nav-footer d-lg-flex justify-content-center d-none">
 						<li class="nav-item">
-							<a class="nav-link" href="!#">Terms of Service</a>
+							<a class="nav-link" href="/legal/terms-of-service">Terms of Service</a>
 						</li>
 						<li class="nav-item">
 							<a class="nav-link" href="!#">Privacy Policy</a>
